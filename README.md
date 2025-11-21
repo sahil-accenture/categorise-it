@@ -143,7 +143,7 @@ Uses TF-IDF (1–2 grams) + cosine similarity to match each reel to the most sim
 ### Basic
 
 ```bash
-python classify_reels.py --input data/dataset_instagram-reel.csv --topics data/Topics.txt
+python classify_reels.py --input data/dataset_instagram-reel.csv --topics data/Topics.txt --output data/dataset_instagram-reel_classified.csv
 ```
 
 ### With Custom Output
@@ -234,10 +234,3 @@ or use a rotating proxy.
 | `--show-sample`            | Print first 20 predictions |
 
 ---
-
-## 📜 License
-
-MIT License
-
----
-
