@@ -1,0 +1,6 @@
+pandas
+scikit-learn
+sentence-transformers
+requests
+beautifulsoup4
+instaloader
